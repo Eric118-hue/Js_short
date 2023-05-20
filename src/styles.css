@@ -1,0 +1,66 @@
+h1{
+    margin: 2rem;
+    padding: 1rem;
+    border: 2px solid darkblue;
+    text-align: center;
+    color: darkturquoise;
+}
+table{
+    margin: 2rem;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid #1e1b1b;
+    padding: 4px;
+    text-align: center;
+}
+thead{
+    padding: 1rem;
+    background-color: #4c6a6a;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+
+}
+thead tr td{
+    padding: 1rem;
+}
+.thead_postId{
+    cursor: pointer;
+    width: 5rem;
+}
+.thead_id{
+    cursor: pointer;
+    width: 3rem;
+}
+button{
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn--next-prec{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+   
+}
+.btn--prec{
+    color: black;
+    font-weight: 600;
+    background-color: #c4b1b1;
+    color: white;
+    font-weight: 600;
+}
+.btn--prec:hover{
+    background-color: #b4a5a5;
+}
+.btn--next{
+    background-color: green;
+    color: white;
+    font-weight: 600;
+}
+.btn--next:hover{
+    background-color: rgb(6, 92, 6);
+}
